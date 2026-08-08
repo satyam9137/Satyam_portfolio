@@ -6,7 +6,8 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 // import Experience from './components/Experience'
 import Contact from './components/Contact'
-import VisitorCounter from './components/VisitorCounter'
+// import VisitorCounter from './components/VisitorCounter'
+import Feedback from './components/Feedback'
 // ...
 
 
@@ -20,7 +21,7 @@ function App() {
       <Projects />
       {/* <Experience /> */}
       <Contact />
-      <VisitorCounter />
+     <Feedback />
       <Footer />
     </section>
   )
