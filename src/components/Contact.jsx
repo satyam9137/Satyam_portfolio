@@ -84,7 +84,7 @@ export default function Contact() {
           <div className="flex gap-5 pt-6 justify-center">
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/satyam9137"
               target="_blank"
               rel="noreferrer"
               className="w-14 h-14 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center hover:bg-cyan-500 hover:text-black transition"

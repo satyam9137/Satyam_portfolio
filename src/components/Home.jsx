@@ -2,10 +2,10 @@ import profile from "../assets/Profile.jpeg";
 
 export default function Home() {
   return (
-    <section
-      id="home"
-      className="min-h-screen w-full bg-gradient-to-br from-slate-950 via-slate-900 to-black overflow-hidden pt-32 sm:pt-36 lg:pt-40 scroll-mt-24"
-    >
+   <section
+  id="home"
+  className="min-h-screen w-full bg-transparent overflow-hidden pt-32 sm:pt-36 lg:pt-40 scroll-mt-24"
+>
       <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-16 pb-20 sm:pb-24 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
         {/* Left Side */}
@@ -47,21 +47,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 sm:mt-16">
-            <div>
-              <h3 className="text-3xl sm:text-4xl font-bold text-cyan-400">10+</h3>
-              <p className="text-gray-400 mt-2 text-xs sm:text-base">Projects</p>
-            </div>
-            <div>
-              <h3 className="text-3xl sm:text-4xl font-bold text-cyan-400">1+</h3>
-              <p className="text-gray-400 mt-2 text-xs sm:text-base">Years Learning</p>
-            </div>
-            <div>
-              <h3 className="text-3xl sm:text-4xl font-bold text-cyan-400">100%</h3>
-              <p className="text-gray-400 mt-2 text-xs sm:text-base">Dedication</p>
-            </div>
-          </div>
-        </div>
+                </div>
 
         {/* Right Side */}
         <div className="flex justify-center order-1 lg:order-2">

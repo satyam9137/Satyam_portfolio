@@ -3,9 +3,9 @@ import { Code2, GraduationCap, Laptop } from "lucide-react";
 export default function About() {
   return (
     <section
-      id="about"
-      className="bg-slate-950 w-full text-white py-24"
-    >
+  id="about"
+  className="bg-transparent w-full text-white py-24"
+>
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}

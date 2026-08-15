@@ -56,9 +56,9 @@ const skills = [
 export default function Skills() {
   return (
     <section
-      id="skills"
-      className="bg-black w-full text-white py-24"
-    >
+  id="skills"
+  className="bg-transparent w-full text-white py-24"
+>
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}

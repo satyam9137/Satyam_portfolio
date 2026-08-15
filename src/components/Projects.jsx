@@ -1,26 +1,28 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
+import image1 from "../assets/Dailycode_image.png";
+import image2 from "../assets/NeuroClass_AI.png";
 
 const projects = [
   {
-    title: "DailyCode - Online Judge",
+    title: "DailyCode - Online Coding Platform",
     description:
       "A full-stack coding platform where users can solve programming problems, compile code, and get instant results.",
-    image: "/projects/dailycode.png",
+    image: image1,
     tech: ["React", "Node.js", "MySQL", "Express"],
-    github: "#",
-    demo: "https://neuroclassai.netlify.app/",
+    github: "https://github.com/satyam9137/Dailycode_Learning_Plateform",
+    demo: "https://dailycodeonlinec.netlify.app/",
   },
-  {
-    title: "Weather App",
-    description:
-      "A responsive weather application using a weather API with real-time forecasts and location search.",
-    image: "/projects/weather.png",
-    tech: ["React", "Tailwind", "API"],
-    github: "#",
-    demo: "#",
-  },
+ {
+  title: "NeuroClass AI",
+  description:
+    "An AI-powered e-learning platform that analyzes attention, fatigue, and emotional states in real time to support personalized and effective learning.",
+  image: image2,
+  tech: ["React", "FastAPI", "Python", "MongoDB", "AI/ML"],
+  github: "https://github.com/satyam9137/Neural-Cognitive-AI-meeting-plateform",
+  demo: "https://neuroclassai.netlify.app/",
+},
   {
     title: "Bus Ticket Booking",
     description:
@@ -33,7 +35,10 @@ const projects = [
 ];
 export default function Projects() {
   return (
-    <section id="projects" className="bg-slate-950 w-full py-24 text-white">
+    <section
+      id="projects"
+      className="bg-transparent w-full py-24 text-white"
+    >
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-16">
@@ -66,11 +71,11 @@ export default function Projects() {
               className="group rounded-3xl overflow-hidden border border-slate-800 bg-slate-900 shadow-xl"
             >
               {/* Image */}
-              <div className="overflow-hidden">
+              <div className="w-full aspect-video overflow-hidden bg-slate-950">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="h-56 w-full object-cover transition duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain object-center transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 
