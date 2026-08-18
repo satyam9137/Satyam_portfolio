@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import resume from "../assets/SatyamGupta_Resume.pdf"
+import resume from "../assets/Satyam_Gupta_Resume.pdf"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +42,7 @@ export default function Navbar() {
 
            <a
       href={resume}
-      download="Satyam_Gupta_Resume.pdf"
+      download ="Satyam_Gupta_Resume.pdf"
       className="inline-block"
     >
       <button className="px-6 py-3 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition duration-300">
