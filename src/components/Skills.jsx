@@ -12,44 +12,44 @@ const skills = [
   {
     icon: <Globe size={42} />,
     title: "Frontend",
-    progress: 90,
+  
     color: "from-cyan-500 to-blue-500",
     tech: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
   },
   {
     icon: <Server size={42} />,
     title: "Backend",
-    progress: 80,
+ 
     color: "from-purple-500 to-pink-500",
     tech: ["Node.js", "Express.js", "REST API"],
   },
   {
     icon: <Database size={42} />,
     title: "Database",
-    progress: 85,
+  
     color: "from-green-500 to-emerald-500",
     tech: ["MySQL", "MongoDB"],
   },
   {
     icon: <Code2 size={42} />,
     title: "Programming",
-    progress: 88,
+  
     color: "from-orange-500 to-red-500",
-    tech: ["Java", "Python", "JavaScript"],
+    tech: ["Java", "Python(basic)", "JavaScript"],
   },
   {
     icon: <GitBranch size={42} />,
     title: "Tools",
-    progress: 82,
+    
     color: "from-yellow-500 to-orange-500",
     tech: ["Git", "GitHub", "VS Code"],
   },
   {
     icon: <Terminal size={42} />,
     title: "Others",
-    progress: 75,
+    
     color: "from-indigo-500 to-violet-500",
-    tech: ["DSA", "OOP", "Problem Solving"],
+    tech: ["OOP", "Problem Solving"],
   },
 ];
 
