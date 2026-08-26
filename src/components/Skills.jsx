@@ -121,28 +121,11 @@ export default function Skills() {
                 {skill.title}
               </h3>
 
-              {/* Progress */}
+           
 
-              <div className="w-full h-2 rounded-full bg-slate-700 mb-2">
+            
 
-                <motion.div
-                  initial={{ width: 0 }}
-                  whileInView={{
-                    width: `${skill.progress}%`,
-                  }}
-                  transition={{
-                    duration: 1.2,
-                    delay: index * 0.2,
-                  }}
-                  viewport={{ once: true }}
-                  className={`h-full rounded-full bg-gradient-to-r ${skill.color}`}
-                />
-
-              </div>
-
-              <p className="text-cyan-400 mb-6">
-                {skill.progress}%
-              </p>
+             
 
               {/* Tech */}
 

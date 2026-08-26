@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Bus Ticket Booking",
     description:
-      "An online bus reservation system with login, seat booking, payment flow, and admin dashboard.",
+      "An online bus reservation system with login, and admin dashboard.",
     image: "/projects/bus.png",
     tech: ["HTML", "CSS", "JavaScript", "MySQL"],
     github: "#",
